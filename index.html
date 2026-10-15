@@ -16,13 +16,19 @@
   <meta property="og:title" content="🐒 CÒN 2 NGÀY: Khóa tập huấn Bảo tồn Thú linh trưởng Việt Nam 2026" />
   <meta property="og:description" content="🌿 Hành trình 11 ngày – Hành trang bảo tồn cho tương lai (13/11 – 23/11/2026). Hạn chót nhận hồ sơ: 23h59 ngày 17/10/2026. Nhấn vào để xem chi tiết & đăng ký ngay!" />
   
-  <!-- Ảnh đại diện hiển thị khi dán link lên Facebook (Chuẩn tỉ lệ ngang 1200x630) -->
+  <!-- Ảnh đại diện hiển thị khi dán link lên Facebook (Sử dụng ảnh Voọc chà vá chân xám ôm đồng hồ cát) -->
   <meta property="og:image" content="https://images.unsplash.com/photo-1540573133985-87b6da6d54a9?auto=format&fit=crop&w=1200&h=630&q=85" />
   <meta property="og:image:secure_url" content="https://images.unsplash.com/photo-1540573133985-87b6da6d54a9?auto=format&fit=crop&w=1200&h=630&q=85" />
   <meta property="og:image:type" content="image/jpeg" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
-  <meta property="og:image:alt" content="Khóa tập huấn Bảo tồn Thú linh trưởng Việt Nam 2026" />
+  <meta property="og:image:alt" content="Khóa tập huấn Bảo tồn Thú linh trưởng Việt Nam 2026 - Voọc chà vá chân xám" />
+
+  <!-- Thẻ hỗ trợ thêm cho các nền tảng mạng xã hội khác -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="🐒 CÒN 2 NGÀY: Khóa tập huấn Bảo tồn Thú linh trưởng Việt Nam 2026" />
+  <meta name="twitter:description" content="🌿 Hành trình 11 ngày – Hành trang bảo tồn cho tương lai. Hạn chót nhận hồ sơ: 23h59 ngày 17/10/2026." />
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1540573133985-87b6da6d54a9?auto=format&fit=crop&w=1200&h=630&q=85" />
 
   <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -85,7 +91,7 @@
       text-transform: uppercase;
     }
 
-    /* Nền Hero với hiệu ứng tối dần xuống đáy như ảnh mẫu */
+    /* Nền Hero với hình ảnh Voọc chà vá chân xám bảo tồn linh trưởng Việt Nam */
     .hero-bg {
       background-image:
         linear-gradient(
@@ -138,10 +144,10 @@
 </head>
 <body class="selection:bg-orange-500 selection:text-white">
 
-  <!-- ==================== PHẦN 1: HERO COUNTDOWN (CHUẨN BỐ CỤC ẢNH MẪU) ==================== -->
+  <!-- ==================== PHẦN 1: HERO COUNTDOWN ==================== -->
   <section class="relative min-h-screen w-full hero-bg flex flex-col justify-between items-center px-4 sm:px-8 py-10 md:py-14 overflow-hidden">
     
-    <!-- Đơn vị tổ chức (cỡ chữ 10px nhỏ gọn, cố định không đổi cỡ trên điện thoại) -->
+    <!-- Đơn vị tổ chức -->
     <div class="z-10 text-center space-y-2 max-w-5xl mx-auto mt-1">
       <div class="organizer-fixed-text inline-flex flex-wrap items-center justify-center gap-1.5 px-3 py-1 rounded-full bg-black/50 border border-white/15 backdrop-blur-md text-emerald-300 font-medium">
         <span>🌿 Hội Động vật học Frankfurt (FZS) tại Việt Nam</span>
@@ -149,7 +155,7 @@
         <span>Khoa Sinh – Nông nghiệp – Môi trường, Trường ĐH Sư phạm – Đại học Đà Nẵng</span>
       </div>
 
-      <!-- Tiêu đề chính màu cam nổi 3D giống hệt ảnh mẫu -->
+      <!-- Tiêu đề chính màu cam nổi 3D -->
       <h1 class="course-banner-title text-2xl sm:text-4xl md:text-5xl lg:text-[3.35rem] pt-3 px-2 tracking-wide">
         VIETNAM PRIMATE CONSERVATION TRAINING COURSE 2026
       </h1>
@@ -158,88 +164,61 @@
       </p>
     </div>
 
-    <!-- Khung Countdown trung tâm phía dưới (Chuẩn bố cục ảnh mẫu) -->
+    <!-- Khung Countdown trung tâm phía dưới -->
     <div class="z-10 w-full max-w-5xl mx-auto my-auto pt-8 pb-4">
       <div class="relative border-[1.5px] border-white/85 bg-black/45 backdrop-blur-[4px] px-4 sm:px-10 md:px-14 py-8 sm:py-11 md:py-14 shadow-2xl">
         
         <!-- Cụm ngôi sao 4 cánh lấp lánh ở góc trên bên phải khung -->
         <div class="absolute -top-9 -right-3 sm:-top-12 sm:-right-6 pointer-events-none select-none flex items-center justify-center">
           <svg width="95" height="95" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-16 h-16 sm:w-24 sm:h-24">
-            <!-- Ngôi sao trắng lớn -->
             <path class="sparkle-anim" d="M48 8 C50 32 54 36 78 38 C54 40 50 44 48 68 C46 44 42 40 18 38 C42 36 46 32 48 8 Z" fill="#FFFFFF" stroke="#e2e8f0" stroke-width="1"/>
-            <!-- Ngôi sao trắng nhỏ bên dưới phải -->
             <path class="sparkle-anim-delay" d="M74 52 C75 64 77 66 89 67 C77 68 75 70 74 82 C73 70 71 68 59 67 C71 66 73 64 74 52 Z" fill="#FFFFFF"/>
-            <!-- Ngôi sao vàng cam góc phải trên -->
             <path class="sparkle-anim-delay" d="M84 22 C85 29 86 30 93 31 C86 32 85 33 84 40 C83 33 82 32 75 31 C82 30 83 29 84 22 Z" fill="#fbbf24"/>
-            <!-- Ngôi sao vàng cam góc trái dưới -->
             <path class="sparkle-anim" d="M26 54 C27 61 28 62 35 63 C28 64 27 65 26 72 C25 65 24 64 17 63 C24 62 25 61 26 54 Z" fill="#fbbf24"/>
-            <!-- Chấm tròn lấp lánh -->
             <circle cx="55" cy="74" r="2" fill="#fbbf24" />
             <circle cx="91" cy="54" r="1.8" fill="#fbbf24" />
           </svg>
         </div>
 
-        <!-- Dãy số Đếm ngược: DAYS : HOURS : MINUTES : SECONDS -->
+        <!-- Dãy số Đếm ngược -->
         <div class="grid grid-cols-7 items-center text-center">
-          
-          <!-- DAYS -->
           <div class="col-span-1 flex flex-col items-center">
             <span id="days" class="countdown-serif text-4xl sm:text-7xl md:text-8xl lg:text-[6.2rem] text-white select-all">2</span>
           </div>
-
-          <!-- Dấu hai chấm -->
           <div class="col-span-1 flex flex-col items-center justify-center pb-2 sm:pb-4">
             <span class="countdown-serif text-3xl sm:text-6xl md:text-7xl text-white/95">:</span>
           </div>
-
-          <!-- HOURS -->
           <div class="col-span-1 flex flex-col items-center">
             <span id="hours" class="countdown-serif text-4xl sm:text-7xl md:text-8xl lg:text-[6.2rem] text-white select-all">07</span>
           </div>
-
-          <!-- Dấu hai chấm -->
           <div class="col-span-1 flex flex-col items-center justify-center pb-2 sm:pb-4">
             <span class="countdown-serif text-3xl sm:text-6xl md:text-7xl text-white/95">:</span>
           </div>
-
-          <!-- MINUTES -->
           <div class="col-span-1 flex flex-col items-center">
             <span id="minutes" class="countdown-serif text-4xl sm:text-7xl md:text-8xl lg:text-[6.2rem] text-white select-all">10</span>
           </div>
-
-          <!-- Dấu hai chấm -->
           <div class="col-span-1 flex flex-col items-center justify-center pb-2 sm:pb-4">
             <span class="countdown-serif text-3xl sm:text-6xl md:text-7xl text-white/95">:</span>
           </div>
-
-          <!-- SECONDS (Màu đỏ tươi như ảnh mẫu) -->
           <div class="col-span-1 flex flex-col items-center">
             <span id="seconds" class="countdown-serif seconds-red text-4xl sm:text-7xl md:text-8xl lg:text-[6.2rem] select-all">35</span>
           </div>
         </div>
 
-        <!-- Nhãn đơn vị thời gian bên dưới -->
+        <!-- Nhãn đơn vị -->
         <div class="grid grid-cols-7 items-center text-center mt-4 sm:mt-7">
-          <div class="col-span-1">
-            <span class="countdown-unit-label text-xs sm:text-lg md:text-2xl text-white tracking-widest">DAYS</span>
-          </div>
+          <div class="col-span-1"><span class="countdown-unit-label text-xs sm:text-lg md:text-2xl text-white tracking-widest">DAYS</span></div>
           <div class="col-span-1"></div>
-          <div class="col-span-1">
-            <span class="countdown-unit-label text-xs sm:text-lg md:text-2xl text-white tracking-widest">HOURS</span>
-          </div>
+          <div class="col-span-1"><span class="countdown-unit-label text-xs sm:text-lg md:text-2xl text-white tracking-widest">HOURS</span></div>
           <div class="col-span-1"></div>
-          <div class="col-span-1">
-            <span class="countdown-unit-label text-xs sm:text-lg md:text-2xl text-white tracking-widest">MINUTES</span>
-          </div>
+          <div class="col-span-1"><span class="countdown-unit-label text-xs sm:text-lg md:text-2xl text-white tracking-widest">MINUTES</span></div>
           <div class="col-span-1"></div>
-          <div class="col-span-1">
-            <span class="countdown-unit-label text-xs sm:text-lg md:text-2xl text-white tracking-widest">SECONDS</span>
-          </div>
+          <div class="col-span-1"><span class="countdown-unit-label text-xs sm:text-lg md:text-2xl text-white tracking-widest">SECONDS</span></div>
         </div>
 
       </div>
 
-      <!-- Dòng thông báo hạn chót & Cụm nút hành động -->
+      <!-- Dòng thông báo hạn chót & Nút bấm -->
       <div class="mt-6 text-center space-y-5">
         <p id="deadline-status" class="text-amber-300 font-medium text-sm sm:text-base tracking-wide">
           ⏳ Hạn chót nhận hồ sơ Vòng 1: <strong class="text-white underline decoration-orange-500 underline-offset-4">23h59 ngày 17/10/2026</strong>
@@ -270,7 +249,6 @@
   <!-- ==================== PHẦN 2: THÔNG TIN CHI TIẾT KHÓA TẬP HUẤN ==================== -->
   <section id="thong-tin-chi-tiet" class="relative py-16 sm:py-24 px-4 sm:px-8 max-w-6xl mx-auto space-y-12">
     
-    <!-- Giới thiệu chung -->
     <div class="info-card rounded-3xl p-6 sm:p-10 shadow-xl border-l-4 border-l-emerald-500 space-y-4">
       <div class="inline-flex items-center gap-2 text-emerald-400 font-bold text-sm uppercase tracking-wider">
         <i data-lucide="leaf" class="w-4 h-4"></i>
@@ -288,12 +266,9 @@
         </p>
       </div>
 
-      <!-- 3 thẻ thông tin tóm tắt: Thời gian, Địa điểm, Hình thức -->
       <div class="grid grid-cols-1 md:grid-cols-3 gap-4 pt-4">
         <div class="bg-black/40 border border-white/10 rounded-2xl p-4 flex items-start gap-3.5">
-          <div class="p-2.5 rounded-xl bg-orange-500/20 text-orange-400 shrink-0">
-            <i data-lucide="calendar-clock" class="w-6 h-6"></i>
-          </div>
+          <div class="p-2.5 rounded-xl bg-orange-500/20 text-orange-400 shrink-0"><i data-lucide="calendar-clock" class="w-6 h-6"></i></div>
           <div>
             <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">Thời gian</p>
             <p class="text-white font-bold mt-0.5">13/11/2026 – 23/11/2026</p>
@@ -302,9 +277,7 @@
         </div>
 
         <div class="bg-black/40 border border-white/10 rounded-2xl p-4 flex items-start gap-3.5">
-          <div class="p-2.5 rounded-xl bg-emerald-500/20 text-emerald-400 shrink-0">
-            <i data-lucide="map-pin" class="w-6 h-6"></i>
-          </div>
+          <div class="p-2.5 rounded-xl bg-emerald-500/20 text-emerald-400 shrink-0"><i data-lucide="map-pin" class="w-6 h-6"></i></div>
           <div>
             <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">Địa điểm</p>
             <p class="text-white font-bold mt-0.5">Trường ĐH Sư phạm – Đại học Đà Nẵng & VQG Kon Ka Kinh (Gia Lai)</p>
@@ -312,9 +285,7 @@
         </div>
 
         <div class="bg-black/40 border border-white/10 rounded-2xl p-4 flex items-start gap-3.5">
-          <div class="p-2.5 rounded-xl bg-amber-500/20 text-amber-400 shrink-0">
-            <i data-lucide="users" class="w-6 h-6"></i>
-          </div>
+          <div class="p-2.5 rounded-xl bg-amber-500/20 text-amber-400 shrink-0"><i data-lucide="users" class="w-6 h-6"></i></div>
           <div>
             <p class="text-xs uppercase tracking-wider text-slate-400 font-semibold">Hình thức & Quy mô</p>
             <p class="text-white font-bold mt-0.5">Trực tiếp (Offline)</p>
@@ -324,150 +295,78 @@
       </div>
     </div>
 
-    <!-- Lưới 2 cột: Nội dung học tập & Quyền lợi học viên -->
+    <!-- Nội dung học tập & Quyền lợi -->
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
-      
-      <!-- Cột 1: Khi tham gia khóa tập huấn, bạn sẽ được -->
       <div class="info-card rounded-3xl p-6 sm:p-8 space-y-5 flex flex-col justify-between">
         <div class="space-y-4">
           <div class="flex items-center gap-3">
             <span class="text-3xl">🐒</span>
-            <h3 class="text-xl sm:text-2xl font-bold text-orange-400">
-              KHI THAM GIA KHÓA TẬP HUẤN, BẠN SẼ ĐƯỢC
-            </h3>
+            <h3 class="text-xl sm:text-2xl font-bold text-orange-400">KHI THAM GIA KHÓA TẬP HUẤN, BẠN SẼ ĐƯỢC</h3>
           </div>
           <ul class="space-y-4 text-slate-200">
-            <li class="flex items-start gap-3">
-              <i data-lucide="check-circle-2" class="w-5 h-5 text-emerald-400 shrink-0 mt-1"></i>
-              <span><strong>Kiến thức nền tảng:</strong> Trang bị kiến thức về đa dạng, sinh thái, phân bố và các mối đe dọa đối với thú linh trưởng trên thế giới và tại Việt Nam.</span>
-            </li>
-            <li class="flex items-start gap-3">
-              <i data-lucide="check-circle-2" class="w-5 h-5 text-emerald-400 shrink-0 mt-1"></i>
-              <span><strong>Pháp luật bảo tồn:</strong> Nâng cao hiểu biết về pháp luật bảo vệ động vật hoang dã và thú linh trưởng.</span>
-            </li>
-            <li class="flex items-start gap-3">
-              <i data-lucide="check-circle-2" class="w-5 h-5 text-emerald-400 shrink-0 mt-1"></i>
-              <span><strong>Kỹ năng nghiên cứu thực địa:</strong> Thực hành điều tra mật độ quần thể, nghiên cứu sinh cảnh, sử dụng GPS, bản đồ, la bàn, bẫy ảnh; thu thập, xử lý và phân tích dữ liệu.</span>
-            </li>
-            <li class="flex items-start gap-3">
-              <i data-lucide="check-circle-2" class="w-5 h-5 text-emerald-400 shrink-0 mt-1"></i>
-              <span><strong>Truyền thông & Cộng đồng:</strong> Phát triển kỹ năng giáo dục môi trường, truyền thông bảo tồn và phỏng vấn cộng đồng dân tộc địa phương.</span>
-            </li>
+            <li class="flex items-start gap-3"><i data-lucide="check-circle-2" class="w-5 h-5 text-emerald-400 shrink-0 mt-1"></i><span><strong>Kiến thức nền tảng:</strong> Trang bị kiến thức về đa dạng, sinh thái, phân bố và các mối đe dọa đối với thú linh trưởng trên thế giới và tại Việt Nam.</span></li>
+            <li class="flex items-start gap-3"><i data-lucide="check-circle-2" class="w-5 h-5 text-emerald-400 shrink-0 mt-1"></i><span><strong>Pháp luật bảo tồn:</strong> Nâng cao hiểu biết về pháp luật bảo vệ động vật hoang dã và thú linh trưởng.</span></li>
+            <li class="flex items-start gap-3"><i data-lucide="check-circle-2" class="w-5 h-5 text-emerald-400 shrink-0 mt-1"></i><span><strong>Kỹ năng nghiên cứu thực địa:</strong> Thực hành điều tra mật độ quần thể, nghiên cứu sinh cảnh, sử dụng GPS, bản đồ, la bàn, bẫy ảnh; thu thập, xử lý và phân tích dữ liệu.</span></li>
+            <li class="flex items-start gap-3"><i data-lucide="check-circle-2" class="w-5 h-5 text-emerald-400 shrink-0 mt-1"></i><span><strong>Truyền thông & Cộng đồng:</strong> Phát triển kỹ năng giáo dục môi trường, truyền thông bảo tồn và phỏng vấn cộng đồng dân tộc địa phương.</span></li>
           </ul>
         </div>
       </div>
 
-      <!-- Cột 2: Quyền lợi khủng dành cho học viên -->
       <div class="info-card rounded-3xl p-6 sm:p-8 space-y-5 flex flex-col justify-between">
         <div class="space-y-4">
           <div class="flex items-center gap-3">
             <span class="text-3xl">🎁</span>
-            <h3 class="text-xl sm:text-2xl font-bold text-amber-400">
-              ĐẶC BIỆT – QUYỀN LỢI DÀNH CHO HỌC VIÊN
-            </h3>
+            <h3 class="text-xl sm:text-2xl font-bold text-amber-400">ĐẶC BIỆT – QUYỀN LỢI DÀNH CHO HỌC VIÊN</h3>
           </div>
           <ul class="space-y-3.5 text-slate-200">
-            <li class="flex items-center gap-3 bg-white/5 p-3 rounded-xl border border-white/10">
-              <span class="text-xl">🌱</span>
-              <span>Học hỏi trực tiếp cùng <strong>các chuyên gia bảo tồn đầu ngành</strong>.</span>
-            </li>
-            <li class="flex items-center gap-3 bg-white/5 p-3 rounded-xl border border-white/10">
-              <span class="text-xl">🍀</span>
-              <span>Được <strong>hỗ trợ ăn ở – đi lại – chỗ ở</strong> trong suốt thời gian thực địa.</span>
-            </li>
-            <li class="flex items-center gap-3 bg-white/5 p-3 rounded-xl border border-white/10">
-              <span class="text-xl">📍</span>
-              <span>Được <strong>hỗ trợ chỗ ở tại TP. Đà Nẵng</strong> trong thời gian học lý thuyết.</span>
-            </li>
-            <li class="flex items-center gap-3 bg-white/5 p-3 rounded-xl border border-white/10">
-              <span class="text-xl">🏅</span>
-              <span>Nhận <strong>chứng chỉ uy tín</strong> sau khi hoàn thành khóa học.</span>
-            </li>
-            <li class="flex items-center gap-3 bg-white/5 p-3 rounded-xl border border-white/10">
-              <span class="text-xl">💡</span>
-              <span>Cơ hội phát triển <strong>đề tài nghiên cứu được tài trợ</strong> bởi Hội Động vật học Frankfurt (FZS).</span>
-            </li>
+            <li class="flex items-center gap-3 bg-white/5 p-3 rounded-xl border border-white/10"><span class="text-xl">🌱</span><span>Học hỏi trực tiếp cùng <strong>các chuyên gia bảo tồn đầu ngành</strong>.</span></li>
+            <li class="flex items-center gap-3 bg-white/5 p-3 rounded-xl border border-white/10"><span class="text-xl">🍀</span><span>Được <strong>hỗ trợ ăn ở – đi lại – chỗ ở</strong> trong suốt thời gian thực địa.</span></li>
+            <li class="flex items-center gap-3 bg-white/5 p-3 rounded-xl border border-white/10"><span class="text-xl">📍</span><span>Được <strong>hỗ trợ chỗ ở tại TP. Đà Nẵng</strong> trong thời gian học lý thuyết.</span></li>
+            <li class="flex items-center gap-3 bg-white/5 p-3 rounded-xl border border-white/10"><span class="text-xl">🏅</span><span>Nhận <strong>chứng chỉ uy tín</strong> sau khi hoàn thành khóa học.</span></li>
+            <li class="flex items-center gap-3 bg-white/5 p-3 rounded-xl border border-white/10"><span class="text-xl">💡</span><span>Cơ hội phát triển <strong>đề tài nghiên cứu được tài trợ</strong> bởi Hội Động vật học Frankfurt (FZS).</span></li>
           </ul>
         </div>
       </div>
-
     </div>
 
-    <!-- Đối tượng tham gia & Hồ sơ đăng ký -->
+    <!-- Đối tượng & Hồ sơ -->
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
-      
-      <!-- Đối tượng tham gia (5 phần) -->
       <div class="lg:col-span-5 info-card rounded-3xl p-6 sm:p-8 space-y-4">
-        <div class="flex items-center gap-3">
-          <span class="text-2xl">👥</span>
-          <h3 class="text-xl font-bold text-white">ĐỐI TƯỢNG THAM GIA</h3>
-        </div>
-        <p class="text-slate-200 leading-relaxed">
-          Sinh viên, cán bộ bảo tồn trẻ, nhà nghiên cứu và các cá nhân quan tâm đến bảo tồn thiên nhiên, đặc biệt là thú linh trưởng.
-        </p>
+        <div class="flex items-center gap-3"><span class="text-2xl">👥</span><h3 class="text-xl font-bold text-white">ĐỐI TƯỢNG THAM GIA</h3></div>
+        <p class="text-slate-200 leading-relaxed">Sinh viên, cán bộ bảo tồn trẻ, nhà nghiên cứu và các cá nhân quan tâm đến bảo tồn thiên nhiên, đặc biệt là thú linh trưởng.</p>
         <div class="p-4 rounded-2xl bg-emerald-950/60 border border-emerald-500/30 flex items-center justify-between">
           <span class="text-emerald-300 font-medium">Số lượng tuyển chọn dự kiến:</span>
           <span class="text-2xl font-extrabold text-white bg-emerald-600 px-4 py-1 rounded-full">25 học viên</span>
         </div>
       </div>
 
-      <!-- Hồ sơ đăng ký (7 phần) -->
       <div class="lg:col-span-7 info-card rounded-3xl p-6 sm:p-8 space-y-4">
-        <div class="flex items-center gap-3">
-          <span class="text-2xl">📝</span>
-          <h3 class="text-xl font-bold text-white">HỒ SƠ ĐĂNG KÝ GỒM</h3>
-        </div>
+        <div class="flex items-center gap-3"><span class="text-2xl">📝</span><h3 class="text-xl font-bold text-white">HỒ SƠ ĐĂNG KÝ GỒM</h3></div>
         <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
-          <div class="bg-black/40 border border-white/10 p-4 rounded-2xl">
-            <span class="text-orange-400 font-extrabold text-lg">01.</span>
-            <p class="font-semibold text-white mt-1">Thư bày tỏ nguyện vọng</p>
-            <p class="text-xs text-slate-400 mt-1">Tối đa 500 từ</p>
-          </div>
-          <div class="bg-black/40 border border-white/10 p-4 rounded-2xl">
-            <span class="text-orange-400 font-extrabold text-lg">02.</span>
-            <p class="font-semibold text-white mt-1">Lý lịch cá nhân (CV)</p>
-            <p class="text-xs text-slate-400 mt-1">Thông tin học tập, hoạt động</p>
-          </div>
-          <div class="bg-black/40 border border-white/10 p-4 rounded-2xl">
-            <span class="text-orange-400 font-extrabold text-lg">03.</span>
-            <p class="font-semibold text-white mt-1">Bản sao bằng cấp, giấy tờ</p>
-            <p class="text-xs text-slate-400 mt-1">Không cần công chứng</p>
-          </div>
+          <div class="bg-black/40 border border-white/10 p-4 rounded-2xl"><span class="text-orange-400 font-extrabold text-lg">01.</span><p class="font-semibold text-white mt-1">Thư bày tỏ nguyện vọng</p><p class="text-xs text-slate-400 mt-1">Tối đa 500 từ</p></div>
+          <div class="bg-black/40 border border-white/10 p-4 rounded-2xl"><span class="text-orange-400 font-extrabold text-lg">02.</span><p class="font-semibold text-white mt-1">Lý lịch cá nhân (CV)</p><p class="text-xs text-slate-400 mt-1">Thông tin học tập, hoạt động</p></div>
+          <div class="bg-black/40 border border-white/10 p-4 rounded-2xl"><span class="text-orange-400 font-extrabold text-lg">03.</span><p class="font-semibold text-white mt-1">Bản sao bằng cấp, giấy tờ</p><p class="text-xs text-slate-400 mt-1">Không cần công chứng</p></div>
         </div>
         <div class="p-4 rounded-2xl bg-amber-500/15 border border-amber-500/40 text-amber-200 text-sm sm:text-base flex items-start gap-3">
           <i data-lucide="file-check-2" class="w-6 h-6 text-amber-400 shrink-0 mt-0.5"></i>
-          <span>
-            <strong>Yêu cầu bắt buộc:</strong> Gộp tất cả giấy tờ trên thành <strong>01 file PDF duy nhất</strong>, tải lên Google Drive cá nhân (mở quyền truy cập) và đính kèm link vào biểu mẫu đăng ký.
-          </span>
+          <span><strong>Yêu cầu bắt buộc:</strong> Gộp tất cả giấy tờ trên thành <strong>01 file PDF duy nhất</strong>, tải lên Google Drive cá nhân (mở quyền truy cập) và đính kèm link vào biểu mẫu đăng ký.</span>
         </div>
       </div>
-
     </div>
 
-    <!-- Thời hạn và Hình thức đăng ký (2 vòng) -->
+    <!-- Thời hạn và Hình thức đăng ký -->
     <div class="info-card rounded-3xl p-6 sm:p-10 space-y-6 border-t-4 border-t-orange-500">
-      <div class="flex items-center gap-3">
-        <span class="text-2xl">📅</span>
-        <h3 class="text-xl sm:text-2xl font-bold text-white">THỜI HẠN VÀ HÌNH THỨC ĐĂNG KÝ</h3>
-      </div>
+      <div class="flex items-center gap-3"><span class="text-2xl">📅</span><h3 class="text-xl sm:text-2xl font-bold text-white">THỜI HẠN VÀ HÌNH THỨC ĐĂNG KÝ</h3></div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <!-- Vòng 1 -->
         <div class="bg-black/45 border border-orange-500/30 rounded-2xl p-6 space-y-2">
-          <span class="inline-block px-3 py-1 rounded-full bg-orange-500/20 text-orange-400 font-bold text-xs uppercase">
-            Vòng 1 • Đang mở đơn
-          </span>
+          <span class="inline-block px-3 py-1 rounded-full bg-orange-500/20 text-orange-400 font-bold text-xs uppercase">Vòng 1 • Đang mở đơn</span>
           <h4 class="text-lg font-bold text-white pt-1">Nộp hồ sơ trực tuyến</h4>
-          <p class="text-slate-300 text-sm sm:text-base">
-            Từ ngày <strong>22/09/2026</strong> đến <strong class="text-orange-400">23h59 ngày 17/10/2026</strong>.
-          </p>
+          <p class="text-slate-300 text-sm sm:text-base">Từ ngày <strong>22/09/2026</strong> đến <strong class="text-orange-400">23h59 ngày 17/10/2026</strong>.</p>
         </div>
 
-        <!-- Vòng 2 -->
         <div class="bg-black/45 border border-emerald-500/30 rounded-2xl p-6 space-y-2">
-          <span class="inline-block px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xs uppercase">
-            Vòng 2 • Phỏng vấn
-          </span>
+          <span class="inline-block px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-xs uppercase">Vòng 2 • Phỏng vấn</span>
           <h4 class="text-lg font-bold text-white pt-1">Phỏng vấn tuyển chọn</h4>
           <ul class="text-slate-300 text-sm sm:text-base space-y-1.5 list-disc list-inside">
             <li><strong>Trực tiếp:</strong> Tại Văn phòng Hội Động vật học Frankfurt (Phòng 301-B2, Trường Đại học Sư phạm – Đại học Đà Nẵng).</li>
@@ -476,22 +375,15 @@
         </div>
       </div>
 
-      <!-- Hộp kêu gọi hành động cuối trang -->
       <div class="pt-4 flex flex-col items-center text-center space-y-4">
-        <p class="text-slate-200 max-w-2xl">
-          Đừng bỏ lỡ cơ hội trở thành 1 trong 25 học viên chính thức của hành trình bảo tồn thú linh trưởng Việt Nam năm 2026!
-        </p>
+        <p class="text-slate-200 max-w-2xl">Đừng bỏ lỡ cơ hội trở thành 1 trong 25 học viên chính thức của hành trình bảo tồn thú linh trưởng Việt Nam năm 2026!</p>
         <a href="https://forms.gle/y9BPQC4HXGmRkZYLA" target="_blank" rel="noopener noreferrer"
            class="inline-flex items-center justify-center gap-3 px-10 py-4 rounded-full bg-gradient-to-r from-orange-600 via-orange-500 to-amber-500 hover:from-orange-500 hover:to-amber-400 text-white font-extrabold text-lg shadow-[0_0_30px_rgba(249,115,22,0.5)] hover:shadow-[0_0_45px_rgba(249,115,22,0.85)] transition-all transform hover:-translate-y-0.5">
           <i data-lucide="external-link" class="w-5 h-5"></i>
           <span>NỘP HỒ SƠ ĐĂNG KÝ TẠI ĐÂY</span>
         </a>
-        <p class="text-xs text-slate-400">
-          Link biểu mẫu: <a href="https://forms.gle/y9BPQC4HXGmRkZYLA" target="_blank" rel="noopener noreferrer" class="underline hover:text-orange-400">https://forms.gle/y9BPQC4HXGmRkZYLA</a>
-        </p>
       </div>
     </div>
-
   </section>
 
   <!-- Footer -->
@@ -500,11 +392,10 @@
     <p class="organizer-fixed-text mt-1 text-slate-400">Hội Động vật học Frankfurt (FZS) tại Việt Nam & Khoa Sinh – Nông nghiệp – Môi trường, Trường Đại học Sư phạm – Đại học Đà Nẵng</p>
   </footer>
 
-  <!-- Script xử lý đồng hồ đếm ngược thời gian thực -->
+  <!-- Script xử lý đếm ngược thời gian thực -->
   <script>
     lucide.createIcons();
 
-    // Mốc hạn chót: 23:59:59 ngày 17/10/2026 (Giờ Việt Nam GMT+7)
     const DEADLINE_TIMESTAMP = new Date('2026-10-17T23:59:59+07:00').getTime();
 
     const daysEl = document.getElementById('days');
@@ -535,7 +426,6 @@
       const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
       const seconds = Math.floor((diff % (1000 * 60)) / 1000);
 
-      // Giữ định dạng số ngày không có số 0 ở đầu (ví dụ: 2) giống ảnh mẫu, còn giờ/phút/giây có 2 chữ số (07 : 10 : 35)
       daysEl.textContent = String(days);
       hoursEl.textContent = padTwo(hours);
       minutesEl.textContent = padTwo(minutes);
